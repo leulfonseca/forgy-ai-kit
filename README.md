@@ -34,16 +34,16 @@ Assim, você pode trabalhar com Claude Code, fechar a ferramenta e continuar no 
 
 Requisito: Node.js 18 ou superior.
 
-Windows:
-
-```powershell
-npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.1.0/forgy-ai-kit-0.1.0.tgz install --kit-dir "C:\Ferramentas\forgy-ai-kit" --agents codex,claude
-```
-
-macOS ou Linux:
+Instalação guiada (Windows, macOS ou Linux):
 
 ```bash
-npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.1.0/forgy-ai-kit-0.1.0.tgz install --kit-dir "$HOME/.forgy-ai-kit" --agents codex,claude
+npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.2.0/forgy-ai-kit-0.2.0.tgz install
+```
+
+O assistente pergunta onde guardar o kit, quais agentes configurar e pede confirmação antes de alterar arquivos. Para automações, CI ou instalação sem perguntas, informe as opções explicitamente:
+
+```bash
+npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.2.0/forgy-ai-kit-0.2.0.tgz install --kit-dir "/caminho/escolhido/forgy-ai-kit" --agents codex,claude --non-interactive
 ```
 
 O instalador preserva instruções globais existentes, gerencia somente um bloco delimitado e cria backups antes de substituir itens controlados pelo kit.
@@ -51,7 +51,7 @@ O instalador preserva instruções globais existentes, gerencia somente um bloco
 ## Preparar um projeto
 
 ```bash
-npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.1.0/forgy-ai-kit-0.1.0.tgz init --project-dir "/caminho/do/projeto"
+npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.2.0/forgy-ai-kit-0.2.0.tgz init --project-dir "/caminho/do/projeto"
 ```
 
 Depois, abra o projeto no agente escolhido e peça:
@@ -71,7 +71,7 @@ Use /forgy-ai-bootstrap para auditar este repositório, preservar o que já exis
 ## Diagnóstico
 
 ```bash
-npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.1.0/forgy-ai-kit-0.1.0.tgz doctor --agents codex,claude
+npx --yes https://github.com/leulfonseca/forgy-ai-kit/releases/download/v0.2.0/forgy-ai-kit-0.2.0.tgz doctor --agents codex,claude
 ```
 
 ## O que é compartilhado
@@ -104,4 +104,4 @@ Consulte [SECURITY.md](SECURITY.md) para reportar vulnerabilidades.
 
 ## Status
 
-A série `0.1.x` é uma versão inicial. O formato do contexto e os comandos já são versionados, mas a política de licenciamento definitiva será definida antes de uma versão estável.
+A série `0.2.x` é uma versão inicial. O formato do contexto e os comandos já são versionados, mas a política de licenciamento definitiva será definida antes de uma versão estável.
