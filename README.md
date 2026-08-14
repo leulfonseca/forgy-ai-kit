@@ -1,6 +1,10 @@
 # Forgy AI Kit
 
+![Forgy AI Kit conecta Codex e Claude Code a um contexto compartilhado](assets/forgy-ai-kit-social.png)
+
 Contexto portátil para alternar entre Codex e Claude Code sem recomeçar o projeto do zero.
+
+Criado por Leonardo Fonseca, na Forgy Digital.
 
 [Landing e guia](https://forgy-ai-kit.vercel.app) · [Release mais recente](https://github.com/leulfonseca/forgy-ai-kit/releases/latest)
 
