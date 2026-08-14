@@ -2,6 +2,14 @@
 
 Todas as mudanças relevantes da distribuição são registradas neste arquivo.
 
+## 0.2.0 - 2026-08-14
+
+- assistente interativo para escolher a pasta canônica, os agentes e confirmar a instalação;
+- modo `--non-interactive` para automações, CI e comandos previamente configurados;
+- gerador de comando na landing com opções para Windows, macOS/Linux, Codex e Claude Code;
+- fallback compatível para copiar comandos em navegadores sem Clipboard API;
+- validação conjunta da versão, nome, tamanho e SHA-256 do artefato publicado.
+
 ## 0.1.0 - 2026-08-14
 
 - instalador multiplataforma executável com Node.js 18+;
