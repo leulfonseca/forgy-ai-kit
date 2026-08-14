@@ -2,7 +2,7 @@
 
 ## Versões suportadas
 
-Somente a release mais recente da série `0.1.x` recebe correções durante a fase inicial.
+Somente a release mais recente da série `0.3.x` recebe correções durante a fase inicial.
 
 ## Verificação do artefato
 
@@ -11,6 +11,8 @@ Cada release publica um arquivo `.sha256` ao lado do pacote `.tgz`. Compare o SH
 ## Dados que o instalador não coleta
 
 O Forgy AI Kit não possui telemetria nem backend em runtime. O instalador não envia chats, memórias, código dos projetos, tokens ou credenciais.
+
+O hook `SessionStart` faz apenas inspeção local de nomes de arquivos conhecidos e da raiz Git. Ele não lê `.env`, não copia memória e não altera projetos. Antes de registrar o handler, o instalador preserva a configuração existente e cria backup quando houver gravação.
 
 ## Reportar uma vulnerabilidade
 

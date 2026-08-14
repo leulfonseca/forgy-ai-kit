@@ -2,6 +2,15 @@
 
 Todas as mudanças relevantes da distribuição são registradas neste arquivo.
 
+## 0.3.0 - 2026-08-14
+
+- detector somente leitura que encontra a raiz Git e classifica o contexto como `READY`, `MIGRATE_REQUIRED`, `INIT_REQUIRED` ou `NO_GIT_PROJECT`;
+- hooks globais `SessionStart` para Codex e Claude Code usando o mesmo runtime portátil;
+- merge idempotente que preserva configurações e hooks existentes com backup anterior;
+- comando `inspect` para diagnóstico manual e `hooks remove` para remoção seletiva;
+- adapters e skill de bootstrap atualizados para agir automaticamente em demandas materiais;
+- tutorial da landing atualizado com confiança inicial, estados e fluxo sem prompts repetidos.
+
 ## 0.2.0 - 2026-08-14
 
 - assistente interativo para escolher a pasta canônica, os agentes e confirmar a instalação;
