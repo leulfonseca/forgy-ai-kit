@@ -6,7 +6,7 @@ Contexto portátil para alternar entre Codex e Claude Code sem recomeçar o proj
 
 Criado por Leonardo Fonseca, na Forgy Digital.
 
-[Landing e guia](https://forgy-ai-kit.vercel.app) · [Release mais recente](https://github.com/leulfonseca/forgy-ai-kit/releases/latest)
+[Landing e guia](https://kit.forgydigital.com) · [Release mais recente](https://github.com/leulfonseca/forgy-ai-kit/releases/latest)
 
 ## O problema que o kit resolve
 

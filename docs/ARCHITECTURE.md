@@ -2,7 +2,7 @@
 
 ## Camadas
 
-1. **Landing na Vercel:** orientação, comandos e acesso ao download.
+1. **Landing na Cloudflare:** orientação, comandos e acesso ao download; deployment Vercel anterior preservado como rollback temporário.
 2. **Repositório público:** documentação, changelog, segurança e histórico de releases.
 3. **Release versionada:** runtime mínimo necessário para instalar adapters, skills, detector, hooks e templates.
 4. **Contexto de cada projeto:** `AGENTS.md`, `CLAUDE.md` e `docs/ai-context/` versionados junto ao código do usuário.
